@@ -1,66 +1,67 @@
-🍕 Pizza Sales SQL Analysis Project
-This project focuses on analyzing pizza sales data using SQL to uncover key business insights for a fictional pizza company. It covers a range of essential SQL concepts including joins, aggregations, window functions, and subqueries — all applied to solve real-world business problems.
+# 🍕 Pizza Sales SQL Analysis Project
 
-📌 Project Overview
-In this project, I used SQL to explore and answer 12 business questions related to pizza orders, revenue, customer preferences, and sales trends. The analysis provides a strong foundation for data-driven decision-making in areas such as marketing, inventory management, and customer behavior.
+## 📌 Project Overview
 
-💡 Key Business Questions Solved
-📦 Total number of orders placed
+This project focuses on analyzing **pizza sales data** using **SQL** to uncover valuable business insights for a fictional pizza company. It demonstrates a wide range of essential SQL concepts such as **joins**, **aggregations**, **window functions**, and **subqueries**, applied to solve real-world business questions.
 
-💰 Total revenue generated from pizza sales
+The analysis supports data-driven decisions in areas like **marketing**, **inventory management**, and **customer behavior**.
 
-🍕 Identification of the highest-priced pizza
+---
 
-📏 Most common pizza size ordered
+## 💡 Key Business Questions Answered
 
-🔝 Top 5 most ordered pizza types by quantity
+- 📦 What is the **total number of orders** placed?
+- 💰 How much **total revenue** was generated from pizza sales?
+- 🍕 What is the **highest-priced pizza**?
+- 📏 What is the **most common pizza size** ordered?
+- 🔝 What are the **top 5 most ordered pizza types** by quantity?
+- 📂 What is the **total quantity ordered** by pizza category?
+- 🕒 How are **orders distributed by hour of the day**?
+- 📊 What is the **category-wise distribution** of pizza types?
+- 📅 What is the **average number of pizzas ordered per day**?
+- 💸 What are the **top 3 pizza types by revenue**?
+- 📈 What is the **percentage revenue contribution** by category?
+- 📉 What does the **cumulative revenue trend over time** look like?
 
-📂 Total quantity ordered by pizza category
+---
 
-🕒 Order distribution by hour of the day
+## 🛠️ Tools & Skills Used
 
-📊 Category-wise distribution of pizza types
+- **SQL (MySQL)**
+- `INNER JOIN` operations
+- Aggregate functions: `SUM`, `COUNT`, `AVG`, `ROUND`
+- `GROUP BY`, `ORDER BY`
+- **Window Functions**: `OVER`, `ROW_NUMBER`, etc.
+- **Subqueries**
+- **Time-based analysis**
 
-📅 Average number of pizzas ordered per day
+---
 
-💸 Top 3 pizza types based on revenue
+## 📂 Dataset Description
 
-📈 Percentage revenue contribution by category
+The project utilizes a relational dataset consisting of 4 key tables:
 
-📉 Cumulative revenue trend over time
+| Table Name      | Description                                       |
+|-----------------|---------------------------------------------------|
+| `orders`        | Contains order timestamps and order IDs           |
+| `order_details` | Maps pizzas and quantities to each order          |
+| `pizzas`        | Includes pizza pricing and size information       |
+| `pizza_types`   | Lists pizza names, categories, and ingredients    |
 
-🛠️ Tools & Skills Used
-SQL (MySQL)
+---
 
-Joins (INNER JOIN)
+## 🚀 Outcome
 
-Aggregate Functions (SUM, COUNT, AVG, ROUND)
+This project illustrates how SQL can be used to extract meaningful insights from raw transactional data. It simulates a real-world business scenario where data analysts help stakeholders make informed decisions through clear and actionable analytics.
 
-Grouping & Ordering
+---
 
-Window Functions (OVER)
+## 🔗 Future Enhancements
 
-Subqueries
+- Integrating the analysis with an interactive dashboard using **Tableau** or **Power BI**
+- Building a **data pipeline** for automated reporting
+- Applying **predictive analytics** (e.g., sales forecasting using Python)
 
-Time-based analysis
+---
 
-📂 Dataset
-The dataset includes 4 key tables:
 
-orders: Order timestamps and IDs
-
-order_details: Pizza quantity and order references
-
-pizzas: Pizza pricing and size
-
-pizza_types: Pizza category and name
-
-🚀 Outcome
-This project showcases how structured query language (SQL) can be used to extract meaningful insights from raw sales data. It simulates a real-world business scenario where data analysts support decision-makers through accurate and insightful analysis.
-
-🔗 Future Work
-Integrating the analysis with a dashboard (Tableau or Power BI)
-
-Building a data pipeline for automated reporting
-
-Applying predictive models for sales forecasting (using Python)
